@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{3265c06e-bcd5-413d-a22f-14593866bb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{dc8866d0-e2ef-41d8-a2c1-3b223354676c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\music">
+      <UniqueIdentifier>{4ce01535-e9a8-4229-b8c2-caedd5b7e442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\textures">
+      <UniqueIdentifier>{8aff705b-72fa-4679-a455-77988c34d329}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\audiere.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SOIL.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\data\music\MJMainMusic_Game.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJMainMusic_GameOver.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJMainMusic_Menu.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJMainMusic_Pause.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_BigCoinCollected.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_ButtonPressed.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_CoinCollected.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_FallDown.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_Jump.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_PowerUpMagnet.wav">
+      <Filter>data\music</Filter>
+    </Media>
+    <Media Include="..\data\music\MJSoundFX_PowerUpStar.wav">
+      <Filter>data\music</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\data\texturas\AnimationIntro (1).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (2).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (3).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (4).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (5).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (6).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (7).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (8).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (9).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (10).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (11).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (12).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (13).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (14).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (15).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (16).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (17).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (18).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (19).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (20).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (21).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (22).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (23).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (24).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (25).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (26).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (27).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (28).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (29).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (30).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (31).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (32).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (33).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (34).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (35).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (36).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (37).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (38).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (39).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (40).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (41).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (42).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (43).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (44).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (45).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (46).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (47).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationIntro (48).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (1).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (2).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (3).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (4).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (5).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (6).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (7).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (8).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (9).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (10).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (11).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (12).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (13).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (14).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (15).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (16).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (17).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (18).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (19).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (20).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (21).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (22).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (23).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (24).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (25).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (26).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (27).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (28).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (29).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (30).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (31).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (32).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (33).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (34).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (35).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (36).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (37).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (38).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (39).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (40).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (41).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (42).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (43).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (44).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (45).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (46).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (47).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (48).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnimationJump (49).png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AnUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ApagarSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ApagarUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AusSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\AusUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonAnleitung.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonBack.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonConfiguracion.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonEinstellungen.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonFortsetzen.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonHighScore.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonInstrucciones.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonInstructions.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonJugar.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonMenu.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonMenü.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonMenuEsp.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonNeustart.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonPlay.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonReiniciar.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonRestart.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonResume.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonSalir.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonSeguir.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonSettings.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonSide.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonSpielen.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\ButtonZurueck.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\count1.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\count2.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\count3.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\DeutschSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\DeutschUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\EncenderSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\EncenderUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\EnglishSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\EnglishUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\EspanolSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\EspanolUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\fondo.jpg">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\gear.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\HighscoreIcon.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\MonsterJumpLogo.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\MusicOff.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\MusicOn.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\OffSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\OffUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\OnSelected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\OnUnselected.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\platformBottom.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\platformSide.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\platformTop.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\platformVenomBottom.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\platformVenomSide.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\platformVenomTop.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\PowerUpCoinBlue.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\PowerUpCoinGold.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\PowerUpCoinRed.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\PowerUpMagnet.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\PowerUpStar.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\SoundOff.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\SoundOn.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\creditsEnglish.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\creditsGerman.png">
+      <Filter>data\textures</Filter>
+    </Image>
+    <Image Include="..\data\texturas\creditsSpanish.png">
+      <Filter>data\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

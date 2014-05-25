@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\audiere.h" />
+    <ClInclude Include="..\include\SOIL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\data\music\MJMainMusic_Game.wav" />
+    <Media Include="..\data\music\MJMainMusic_GameOver.wav" />
+    <Media Include="..\data\music\MJMainMusic_Menu.wav" />
+    <Media Include="..\data\music\MJMainMusic_Pause.wav" />
+    <Media Include="..\data\music\MJSoundFX_BigCoinCollected.wav" />
+    <Media Include="..\data\music\MJSoundFX_ButtonPressed.wav" />
+    <Media Include="..\data\music\MJSoundFX_CoinCollected.wav" />
+    <Media Include="..\data\music\MJSoundFX_FallDown.wav" />
+    <Media Include="..\data\music\MJSoundFX_Jump.wav" />
+    <Media Include="..\data\music\MJSoundFX_PowerUpMagnet.wav" />
+    <Media Include="..\data\music\MJSoundFX_PowerUpStar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\data\texturas\AnimationIntro (1).png" />
+    <Image Include="..\data\texturas\AnimationIntro (10).png" />
+    <Image Include="..\data\texturas\AnimationIntro (11).png" />
+    <Image Include="..\data\texturas\AnimationIntro (12).png" />
+    <Image Include="..\data\texturas\AnimationIntro (13).png" />
+    <Image Include="..\data\texturas\AnimationIntro (14).png" />
+    <Image Include="..\data\texturas\AnimationIntro (15).png" />
+    <Image Include="..\data\texturas\AnimationIntro (16).png" />
+    <Image Include="..\data\texturas\AnimationIntro (17).png" />
+    <Image Include="..\data\texturas\AnimationIntro (18).png" />
+    <Image Include="..\data\texturas\AnimationIntro (19).png" />
+    <Image Include="..\data\texturas\AnimationIntro (2).png" />
+    <Image Include="..\data\texturas\AnimationIntro (20).png" />
+    <Image Include="..\data\texturas\AnimationIntro (21).png" />
+    <Image Include="..\data\texturas\AnimationIntro (22).png" />
+    <Image Include="..\data\texturas\AnimationIntro (23).png" />
+    <Image Include="..\data\texturas\AnimationIntro (24).png" />
+    <Image Include="..\data\texturas\AnimationIntro (25).png" />
+    <Image Include="..\data\texturas\AnimationIntro (26).png" />
+    <Image Include="..\data\texturas\AnimationIntro (27).png" />
+    <Image Include="..\data\texturas\AnimationIntro (28).png" />
+    <Image Include="..\data\texturas\AnimationIntro (29).png" />
+    <Image Include="..\data\texturas\AnimationIntro (3).png" />
+    <Image Include="..\data\texturas\AnimationIntro (30).png" />
+    <Image Include="..\data\texturas\AnimationIntro (31).png" />
+    <Image Include="..\data\texturas\AnimationIntro (32).png" />
+    <Image Include="..\data\texturas\AnimationIntro (33).png" />
+    <Image Include="..\data\texturas\AnimationIntro (34).png" />
+    <Image Include="..\data\texturas\AnimationIntro (35).png" />
+    <Image Include="..\data\texturas\AnimationIntro (36).png" />
+    <Image Include="..\data\texturas\AnimationIntro (37).png" />
+    <Image Include="..\data\texturas\AnimationIntro (38).png" />
+    <Image Include="..\data\texturas\AnimationIntro (39).png" />
+    <Image Include="..\data\texturas\AnimationIntro (4).png" />
+    <Image Include="..\data\texturas\AnimationIntro (40).png" />
+    <Image Include="..\data\texturas\AnimationIntro (41).png" />
+    <Image Include="..\data\texturas\AnimationIntro (42).png" />
+    <Image Include="..\data\texturas\AnimationIntro (43).png" />
+    <Image Include="..\data\texturas\AnimationIntro (44).png" />
+    <Image Include="..\data\texturas\AnimationIntro (45).png" />
+    <Image Include="..\data\texturas\AnimationIntro (46).png" />
+    <Image Include="..\data\texturas\AnimationIntro (47).png" />
+    <Image Include="..\data\texturas\AnimationIntro (48).png" />
+    <Image Include="..\data\texturas\AnimationIntro (5).png" />
+    <Image Include="..\data\texturas\AnimationIntro (6).png" />
+    <Image Include="..\data\texturas\AnimationIntro (7).png" />
+    <Image Include="..\data\texturas\AnimationIntro (8).png" />
+    <Image Include="..\data\texturas\AnimationIntro (9).png" />
+    <Image Include="..\data\texturas\AnimationJump (1).png" />
+    <Image Include="..\data\texturas\AnimationJump (10).png" />
+    <Image Include="..\data\texturas\AnimationJump (11).png" />
+    <Image Include="..\data\texturas\AnimationJump (12).png" />
+    <Image Include="..\data\texturas\AnimationJump (13).png" />
+    <Image Include="..\data\texturas\AnimationJump (14).png" />
+    <Image Include="..\data\texturas\AnimationJump (15).png" />
+    <Image Include="..\data\texturas\AnimationJump (16).png" />
+    <Image Include="..\data\texturas\AnimationJump (17).png" />
+    <Image Include="..\data\texturas\AnimationJump (18).png" />
+    <Image Include="..\data\texturas\AnimationJump (19).png" />
+    <Image Include="..\data\texturas\AnimationJump (2).png" />
+    <Image Include="..\data\texturas\AnimationJump (20).png" />
+    <Image Include="..\data\texturas\AnimationJump (21).png" />
+    <Image Include="..\data\texturas\AnimationJump (22).png" />
+    <Image Include="..\data\texturas\AnimationJump (23).png" />
+    <Image Include="..\data\texturas\AnimationJump (24).png" />
+    <Image Include="..\data\texturas\AnimationJump (25).png" />
+    <Image Include="..\data\texturas\AnimationJump (26).png" />
+    <Image Include="..\data\texturas\AnimationJump (27).png" />
+    <Image Include="..\data\texturas\AnimationJump (28).png" />
+    <Image Include="..\data\texturas\AnimationJump (29).png" />
+    <Image Include="..\data\texturas\AnimationJump (3).png" />
+    <Image Include="..\data\texturas\AnimationJump (30).png" />
+    <Image Include="..\data\texturas\AnimationJump (31).png" />
+    <Image Include="..\data\texturas\AnimationJump (32).png" />
+    <Image Include="..\data\texturas\AnimationJump (33).png" />
+    <Image Include="..\data\texturas\AnimationJump (34).png" />
+    <Image Include="..\data\texturas\AnimationJump (35).png" />
+    <Image Include="..\data\texturas\AnimationJump (36).png" />
+    <Image Include="..\data\texturas\AnimationJump (37).png" />
+    <Image Include="..\data\texturas\AnimationJump (38).png" />
+    <Image Include="..\data\texturas\AnimationJump (39).png" />
+    <Image Include="..\data\texturas\AnimationJump (4).png" />
+    <Image Include="..\data\texturas\AnimationJump (40).png" />
+    <Image Include="..\data\texturas\AnimationJump (41).png" />
+    <Image Include="..\data\texturas\AnimationJump (42).png" />
+    <Image Include="..\data\texturas\AnimationJump (43).png" />
+    <Image Include="..\data\texturas\AnimationJump (44).png" />
+    <Image Include="..\data\texturas\AnimationJump (45).png" />
+    <Image Include="..\data\texturas\AnimationJump (46).png" />
+    <Image Include="..\data\texturas\AnimationJump (47).png" />
+    <Image Include="..\data\texturas\AnimationJump (48).png" />
+    <Image Include="..\data\texturas\AnimationJump (49).png" />
+    <Image Include="..\data\texturas\AnimationJump (5).png" />
+    <Image Include="..\data\texturas\AnimationJump (6).png" />
+    <Image Include="..\data\texturas\AnimationJump (7).png" />
+    <Image Include="..\data\texturas\AnimationJump (8).png" />
+    <Image Include="..\data\texturas\AnimationJump (9).png" />
+    <Image Include="..\data\texturas\AnSelected.png" />
+    <Image Include="..\data\texturas\AnUnselected.png" />
+    <Image Include="..\data\texturas\ApagarSelected.png" />
+    <Image Include="..\data\texturas\ApagarUnselected.png" />
+    <Image Include="..\data\texturas\AusSelected.png" />
+    <Image Include="..\data\texturas\AusUnselected.png" />
+    <Image Include="..\data\texturas\ButtonAnleitung.png" />
+    <Image Include="..\data\texturas\ButtonBack.png" />
+    <Image Include="..\data\texturas\ButtonConfiguracion.png" />
+    <Image Include="..\data\texturas\ButtonEinstellungen.png" />
+    <Image Include="..\data\texturas\ButtonFortsetzen.png" />
+    <Image Include="..\data\texturas\ButtonHighScore.png" />
+    <Image Include="..\data\texturas\ButtonInstrucciones.png" />
+    <Image Include="..\data\texturas\ButtonInstructions.png" />
+    <Image Include="..\data\texturas\ButtonJugar.png" />
+    <Image Include="..\data\texturas\ButtonMenu.png" />
+    <Image Include="..\data\texturas\ButtonMenuEsp.png" />
+    <Image Include="..\data\texturas\ButtonMenü.png" />
+    <Image Include="..\data\texturas\ButtonNeustart.png" />
+    <Image Include="..\data\texturas\ButtonPlay.png" />
+    <Image Include="..\data\texturas\ButtonReiniciar.png" />
+    <Image Include="..\data\texturas\ButtonRestart.png" />
+    <Image Include="..\data\texturas\ButtonResume.png" />
+    <Image Include="..\data\texturas\ButtonSalir.png" />
+    <Image Include="..\data\texturas\ButtonSeguir.png" />
+    <Image Include="..\data\texturas\ButtonSettings.png" />
+    <Image Include="..\data\texturas\ButtonSide.png" />
+    <Image Include="..\data\texturas\ButtonSpielen.png" />
+    <Image Include="..\data\texturas\ButtonZurueck.png" />
+    <Image Include="..\data\texturas\count1.png" />
+    <Image Include="..\data\texturas\count2.png" />
+    <Image Include="..\data\texturas\count3.png" />
+    <Image Include="..\data\texturas\creditsEnglish.png" />
+    <Image Include="..\data\texturas\creditsGerman.png" />
+    <Image Include="..\data\texturas\creditsSpanish.png" />
+    <Image Include="..\data\texturas\DeutschSelected.png" />
+    <Image Include="..\data\texturas\DeutschUnselected.png" />
+    <Image Include="..\data\texturas\EncenderSelected.png" />
+    <Image Include="..\data\texturas\EncenderUnselected.png" />
+    <Image Include="..\data\texturas\EnglishSelected.png" />
+    <Image Include="..\data\texturas\EnglishUnselected.png" />
+    <Image Include="..\data\texturas\EspanolSelected.png" />
+    <Image Include="..\data\texturas\EspanolUnselected.png" />
+    <Image Include="..\data\texturas\fondo.jpg" />
+    <Image Include="..\data\texturas\gear.png" />
+    <Image Include="..\data\texturas\HighscoreIcon.png" />
+    <Image Include="..\data\texturas\MonsterJumpLogo.png" />
+    <Image Include="..\data\texturas\MusicOff.png" />
+    <Image Include="..\data\texturas\MusicOn.png" />
+    <Image Include="..\data\texturas\OffSelected.png" />
+    <Image Include="..\data\texturas\OffUnselected.png" />
+    <Image Include="..\data\texturas\OnSelected.png" />
+    <Image Include="..\data\texturas\OnUnselected.png" />
+    <Image Include="..\data\texturas\platformBottom.png" />
+    <Image Include="..\data\texturas\platformSide.png" />
+    <Image Include="..\data\texturas\platformTop.png" />
+    <Image Include="..\data\texturas\platformVenomBottom.png" />
+    <Image Include="..\data\texturas\platformVenomSide.png" />
+    <Image Include="..\data\texturas\platformVenomTop.png" />
+    <Image Include="..\data\texturas\PowerUpCoinBlue.png" />
+    <Image Include="..\data\texturas\PowerUpCoinGold.png" />
+    <Image Include="..\data\texturas\PowerUpCoinRed.png" />
+    <Image Include="..\data\texturas\PowerUpMagnet.png" />
+    <Image Include="..\data\texturas\PowerUpStar.png" />
+    <Image Include="..\data\texturas\SoundOff.png" />
+    <Image Include="..\data\texturas\SoundOn.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{774E9578-1B04-472B-920D-D10DADD67AD0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>monsterJump</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\include;..\src_common</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OutputFile>..\bin32\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;audiere.lib;SOIL.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

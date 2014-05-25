@@ -1,0 +1,22 @@
+﻿Build started 5/20/2014 10:57:50 PM.
+     1>Project "C:\Users\jegv91\Downloads\monsterJump\monsterJump\monsterJump.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\src_common /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /analyze- /errorReport:prompt /clr:nostdlib main.cpp
+         main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\src_common /Zi /clr /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\jegv91\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\jegv91\Downloads\monsterJump\monsterJump\Debug\monsterJump.exe) does not match the Linker's OutputFile property value (C:\Users\jegv91\Downloads\monsterJump\bin32\monsterJump.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin32\monsterJump.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib audiere.lib SOIL.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\monsterJump.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\main.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>SOIL.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>SOIL.lib(image_DXT.obj) : warning LNK4204: 'C:\Users\jegv91\Downloads\monsterJump\monsterJump\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4204: 'C:\Users\jegv91\Downloads\monsterJump\monsterJump\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4204: 'C:\Users\jegv91\Downloads\monsterJump\monsterJump\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4204: 'C:\Users\jegv91\Downloads\monsterJump\monsterJump\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         monsterJump.vcxproj -> C:\Users\jegv91\Downloads\monsterJump\monsterJump\Debug\monsterJump.exe
+     1>Done Building Project "C:\Users\jegv91\Downloads\monsterJump\monsterJump\monsterJump.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.57
